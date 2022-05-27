@@ -1,0 +1,209 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
+
+.container {
+    background-color: #ffffff;
+    > .navBar-area {
+        .col-md-12 {
+            .navbar {
+                .container-fluid {
+                    .logo {
+                        font-size: 22px;
+                        color: #3e3e3e;
+                        font-weight: 700;
+                    }
+                    .collapse {
+                        ul {
+                            li {
+                                a {
+                                    color: #3e3e3e;
+                                    font-size: 16px;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // nav-end
+    > .carousel {
+        .carousel-inner {
+            .carousel-item {
+                .carousel-caption {
+                    h5 {
+                        font-size: 48px;
+                        font-weight: 600;
+                    }
+                    p {
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                    button {
+                        width: 168px;
+                        padding: 10px;
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #3f87f5;
+                    }
+                }
+            }
+        }
+    }
+    //slider end
+    .album {
+        .image-side {
+        }
+        .content {
+            h3 {
+                font-size: 38px;
+                font-weight: 700;
+                color: #0a0826;
+            }
+            p {
+                font-size: 16px;
+                font-weight: 700;
+                color: #6c6c6c;
+            }
+            button {
+                font-size: 16px;
+                font-weight: 700;
+                color: #ffffff;
+            }
+        }
+    }
+    //album end
+    .package-area {
+        h1 {
+            font-size: 38px;
+            font-weight: 600;
+        }
+        .col-md-3 {
+            transition: 1s;
+            span {
+                font-size: 36px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 700;
+                color: #231d4f;
+            }
+            h2 {
+                font-size: 28px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 700;
+                color: #231d4f;
+            }
+            p {
+                font-size: 15px;
+                font-weight: 400;
+                color: #848199;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    list-style: none;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: #848199;
+                    line-height: 30px;
+                    i {
+                        margin-right: 10px;
+                    }
+                }
+            }
+            button {
+                background-color: #f8c9e64e;
+                opacity: 0.9;
+                font-size: 15px;
+                font-family: "Roboto", sans-serif;
+                font-weight: 700;
+                border-radius: 24px;
+                color: #3f87f5;
+            }
+            &:hover {
+                background: #3f87f5;
+                padding: 5px;
+                border-radius: 15px;
+                transform: translate(0px, -30px);
+                span,
+                h2,
+                p,
+                ul,
+                li {
+                    color: #ffffff;
+                }
+                button {
+                    background: #ffffff;
+                }
+            }
+        }
+    }
+    > .client-area {
+        h1 {
+            font-size: 38px;
+            font-weight: 600;
+        }
+        .col-md-4 {
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: #6c6c6c;
+            }
+            .img-content {
+                h3 {
+                    font-weight: 600;
+                    font-size: 14px;
+                    color: #0c1920;
+                }
+                h6 {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #747474;
+                }
+            }
+        }
+    }
+    > .frq-ask {
+        h1 {
+            font-size: 38px;
+            font-weight: 600;
+        }
+        .col-md-7 {
+            .accordion {
+                .accordion-item {
+                    .accordion-header {
+                        button {
+                            font-size: 20px;
+                            font-weight: 500;
+                            color: #383838;
+                        }
+                        .accordion-collapse {
+                            .accordion-body {
+                                font-size: 16px;
+                                font-weight: 400;
+                                color: #7e848c;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        .col-md-4 {
+            p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #d9dbe1;
+            }
+            h6 {
+                font-size: 18px;
+                font-weight: 500;
+                color: #d9dbe1;
+            }
+        }
+    }
+}
